@@ -1,0 +1,18 @@
+{
+  "name": "tatos-pokedex-api",
+  "version": "1.0.0",
+  "description": "API REST de una Pokedex sobre PostgreSQL, desplegada en TatOS (Linux From Scratch 12.4)",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node --env-file=.env server.js"
+  },
+  "engines": {
+    "node": ">=20.6"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  },
+  "license": "MIT"
+}
